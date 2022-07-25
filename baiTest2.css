@@ -1,0 +1,44 @@
+.app{
+    background: #f3f2fa;
+    padding: 80px;
+    min-height: 680px;
+}
+h2{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #c59d5f;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.category {
+    width: 50%;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.title{
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.button{
+    color: #af9839;
+    border: 2px solid #af9839;
+    transition: 0.3s all linear;
+    padding: 0px 4px;
+    background: white;
+}
+.button:hover{
+    transform: rotate(90deg);
+}
+
+.content{
+    display: none;
+    border-top: 1px solid #c7c5c5;
+    color: #1c69a8;
+    padding-top: 10px;
+    font-size: 18px;
+}
